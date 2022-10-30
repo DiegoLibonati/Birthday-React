@@ -73,3 +73,7 @@ export default [
 `https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Birthday%20app%20page`
 
 ## Video
+
+
+https://user-images.githubusercontent.com/99032604/198900667-923911ef-2e5e-4cd8-ba0a-7d34dc907b19.mp4
+
