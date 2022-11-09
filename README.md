@@ -11,9 +11,30 @@
 
 I made a web application that allows you to see today's birthdays, and how old they are. There is also a button that allows you to clear the active birthdays.
 
-## Feel free to edit my code
+## Technologies used
 
-From data.js we use the birthdays actives and if you want you can add new birthdays or add attributes too!
+1. React JS
+2. CSS3
+
+## Galery
+
+![Birthday-app-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/reactbirthday-0.jpg)
+
+![Birthday-app-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/reactbirthday-1.jpg)
+
+![Birthday-app-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/reactbirthday-2.jpg)
+
+## Portfolio Link
+
+`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Birthday%20app%20page`
+
+## Video
+
+https://user-images.githubusercontent.com/99032604/198900667-923911ef-2e5e-4cd8-ba0a-7d34dc907b19.mp4
+
+## Documentation
+
+From the `data.js` file found in helpers we are going to get all the information as if it were an API:
 
 ```
 export default [
@@ -55,25 +76,12 @@ export default [
   ];
 ```
 
-## Technologies used
+In the `App.js` file we are going to find all the logic of this application. Basically we have a state called `people` in which all the people will be saved and a function `handleClear()` that will be executed when the button is pressed to clean the birthdays that will modify the state `people` to an empty array:
 
-1. React JS
-2. CSS3
+```
+const [people, setPeople] = useState(data)
 
-## Galery
-
-![Birthday-app-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/reactbirthday-0.jpg)
-
-![Birthday-app-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/reactbirthday-1.jpg)
-
-![Birthday-app-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/reactbirthday-2.jpg)
-
-## Portfolio Link
-
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Birthday%20app%20page`
-
-## Video
-
-
-https://user-images.githubusercontent.com/99032604/198900667-923911ef-2e5e-4cd8-ba0a-7d34dc907b19.mp4
-
+const handleClear = () => {
+  setPeople([])
+}
+```
