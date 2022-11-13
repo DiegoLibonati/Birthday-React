@@ -26,7 +26,7 @@ I made a web application that allows you to see today's birthdays, and how old t
 
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Birthday%20app%20page`
+`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Birthday%20App%20Page`
 
 ## Video
 
