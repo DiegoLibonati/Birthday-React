@@ -16,18 +16,6 @@ I made a web application that allows you to see today's birthdays, and how old t
 1. React JS
 2. CSS3
 
-## Galery
-
-![Birthday-app-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/reactbirthday-0.jpg)
-
-![Birthday-app-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/reactbirthday-1.jpg)
-
-![Birthday-app-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/React/Imagenes/reactbirthday-2.jpg)
-
-## Portfolio Link
-
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Birthday%20App%20Page`
-
 ## Video
 
 https://user-images.githubusercontent.com/99032604/198900667-923911ef-2e5e-4cd8-ba0a-7d34dc907b19.mp4
