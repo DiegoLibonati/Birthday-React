@@ -23,7 +23,7 @@ I made a web application that allows you to see today's birthdays, and how old t
 
 ## Video
 
-https://user-images.githubusercontent.com/99032604/198900667-923911ef-2e5e-4cd8-ba0a-7d34dc907b19.mp4
+https://github.com/DiegoLibonati/Birthday-App-Page/assets/99032604/fbdd0fc6-3ee9-4624-9d71-9fc706e8042f
 
 ## Documentation
 
