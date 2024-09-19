@@ -1,4 +1,4 @@
-# Birthday-App-Page
+# Birthday React
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ I made a web application that allows you to see today's birthdays, and how old t
 
 ## Portfolio Link
 
-[`https://www.diegolibonati.com.ar/#/project/105`](https://www.diegolibonati.com.ar/#/project/105)
+[`https://www.diegolibonati.com.ar/#/project/Birthday-React`](https://www.diegolibonati.com.ar/#/project/Birthday-React)
 
 ## Video
 
