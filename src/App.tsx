@@ -1,8 +1,12 @@
-import { birthdays as arrBirthdays } from "./data.ts";
 import { useState } from "react";
+
 import { Birthday } from "./entities/entities";
-import "./App.css";
+
 import { Item } from "./components/Item.tsx";
+
+import { birthdays as arrBirthdays } from "./data.ts";
+
+import "./App.css";
 
 function App(): JSX.Element {
   const [birthdays, setBirthdays] = useState<Birthday[]>(arrBirthdays);
