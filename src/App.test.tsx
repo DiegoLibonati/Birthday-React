@@ -40,7 +40,7 @@ test("It is expected that the number of birthdays will be rendered in text.", ()
   renderComponent();
 
   const headingElement = screen.getByRole("heading", {
-    name: new RegExp(`${BIRTHDAYS_MOCK.length}`),
+    name: new RegExp(`${BIRTHDAYS_MOCK.length} birthdays today`),
   });
 
   expect(headingElement).toBeInTheDocument();
@@ -81,7 +81,7 @@ test("It is expected that when touching the clear button, the number of text bir
   await user.click(buttonClear);
 
   const headingElement = screen.getByRole("heading", {
-    name: /0/i,
+    name: /0 birthdays today/i,
   });
 
   expect(headingElement).toBeInTheDocument();
