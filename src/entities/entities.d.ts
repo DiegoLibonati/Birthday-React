@@ -6,9 +6,3 @@ export type Birthday = {
   age: number;
   image: string;
 };
-
-// Interfaces
-
-export interface ItemProps {
-  birthday: Birthday;
-}
