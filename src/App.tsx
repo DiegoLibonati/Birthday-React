@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { Birthday } from "./entities/entities";
 
-import { Item } from "./components/Item.tsx";
+import { Item } from "./components/Item/Item.tsx";
 
 import { birthdays as arrBirthdays } from "./data.ts";
 

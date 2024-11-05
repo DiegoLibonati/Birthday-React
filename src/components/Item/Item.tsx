@@ -1,4 +1,4 @@
-import { Birthday } from "../entities/entities";
+import { Birthday } from "../../entities/entities";
 
 interface ItemProps {
   birthday: Birthday;
