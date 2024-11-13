@@ -17,6 +17,14 @@ I made a web application that allows you to see today's birthdays, and how old t
 2. Typescript
 3. CSS3
 
+## Libraries used
+
+1. @testing-library/jest-dom
+2. @testing-library/react
+3. @testing-library/user-event
+4. @testing-library/dom
+5. @types/jest
+
 ## Portfolio Link
 
 [`https://www.diegolibonati.com.ar/#/project/Birthday-React`](https://www.diegolibonati.com.ar/#/project/Birthday-React)
@@ -24,6 +32,12 @@ I made a web application that allows you to see today's birthdays, and how old t
 ## Video
 
 https://github.com/DiegoLibonati/Birthday-App-Page/assets/99032604/fbdd0fc6-3ee9-4624-9d71-9fc706e8042f
+
+## Testing
+
+1. Join to the correct path of the clone and join to: `bookstore-app`
+2. Execute: `yarn install`
+3. Execute: `yarn test`
 
 ## Documentation
 

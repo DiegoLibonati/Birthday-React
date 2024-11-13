@@ -4,7 +4,7 @@ import { Birthday } from "./entities/entities";
 
 import { Item } from "./components/Item/Item.tsx";
 
-import { birthdays as arrBirthdays } from "./data.ts";
+import { birthdays as arrBirthdays } from "./constants/data.ts";
 
 import "./App.css";
 

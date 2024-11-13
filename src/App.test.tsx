@@ -22,7 +22,7 @@ const BIRTHDAYS_MOCK = [
   },
 ];
 
-jest.mock("./data.ts", () => ({
+jest.mock("./constants/data.ts", () => ({
   get birthdays() {
     return BIRTHDAYS_MOCK;
   },

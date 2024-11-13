@@ -1,4 +1,4 @@
-import { Birthday } from "./entities/entities";
+import { Birthday } from "../entities/entities";
 
 export const birthdays: Birthday[] = [
   {
