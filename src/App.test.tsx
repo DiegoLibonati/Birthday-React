@@ -3,8 +3,6 @@ import user from "@testing-library/user-event";
 
 import App from "./App";
 
-import "@testing-library/jest-dom";
-
 const BIRTHDAYS_MOCK = [
   {
     id: 1,

@@ -2,8 +2,6 @@ import { screen, render } from "@testing-library/react";
 
 import { Item } from "./Item";
 
-import "@testing-library/jest-dom";
-
 test("It is expected that the given props will be rendered.", () => {
   const birthday = {
     id: 1,
