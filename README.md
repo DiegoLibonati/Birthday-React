@@ -51,7 +51,7 @@ https://github.com/DiegoLibonati/Birthday-App-Page/assets/99032604/fbdd0fc6-3ee9
 
 ## Testing
 
-1. Join to the correct path of the clone and join to: `bookstore-app`
+1. Join to the correct path of the clone
 2. Execute: `yarn install`
 3. Execute: `yarn test`
 
