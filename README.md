@@ -38,6 +38,10 @@ I made a web application that allows you to see today's birthdays, and how old t
 "@testing-library/jest-dom": "^6.6.2"
 "@testing-library/react": "^16.0.1"
 "@testing-library/user-event": "^14.5.2"
+"jest": "^29.7.0"
+"jest-environment-jsdom": "^29.7.0"
+"jest-fixed-jsdom": "^0.0.9"
+"ts-jest": "^29.2.5"
 "typescript": "^5.3.3"
 ```
 
