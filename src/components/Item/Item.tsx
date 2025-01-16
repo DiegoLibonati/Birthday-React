@@ -8,9 +8,9 @@ export const Item = ({ birthday }: ItemProps): JSX.Element => {
   const { id, name, age, image } = birthday;
 
   return (
-    <div key={id} className="person_container">
+    <div key={id} className="person">
       <img src={image} alt={name}></img>
-      <div className="person_container_text">
+      <div className="person__description">
         <h3>{name}</h3>
         <p>{age} years</p>
       </div>

@@ -1,66 +1,66 @@
-.main_container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column wrap;
-    width: 30rem;
-    height: auto;
-    background-color: #fff;
-    padding: 1rem;
-    border-radius: 1rem;
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 30rem;
+  height: auto;
+  background-color: var(--white-color);
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
-    .main_container h2{
-        font-size: 2rem;
-        width: 90%;
-        padding: 1rem;
-    }
+.main h2 {
+  font-size: 2rem;
+  width: 90%;
+  padding: 1rem;
+}
 
-    .person_container{
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-flow: row wrap;
-        width: 90%;
-        height: 10rem;
-        padding: 1rem;
-    }
+.person {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  width: 90%;
+  height: 10rem;
+  padding: 1rem;
+}
 
-        .person_container img{
-            width: 7rem;
-            height: 7rem;
-            object-fit: cover;
-            border-radius: 50%;
-        }
+.person img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
-        .person_container_text{
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            flex-flow: column wrap;
-            padding-left: 1rem;
-            height: 8rem;
-        }
+.person__description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding-left: 1rem;
+  height: 8rem;
+}
 
-            .person_container_text h3{
-                font-size: 1.5rem;
-                padding: .5rem;
-            }
+.person__description h3 {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
 
-            .person_container_text p{
-                font-size: 1.2rem;
-                padding: .5rem;
-            }
+.person__description p {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
 
-        .main_container button{
-            padding: 1rem;
-            width: 90%;
-            font-size: 1.5rem;
-            letter-spacing: .2rem;
-            border-radius: 1rem;
-            color: #fff;
-            outline: none;
-            background-color: #ffc0cb;
-            cursor: pointer;
-            border: none;
-        }
+.main button {
+  padding: 1rem;
+  width: 90%;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  border-radius: 1rem;
+  color: var(--white-color);
+  outline: none;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  border: none;
+}
