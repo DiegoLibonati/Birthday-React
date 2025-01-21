@@ -10,49 +10,13 @@
   border-radius: 1rem;
 }
 
-.birthday-app h2 {
+.birthday-app__title {
   font-size: 2rem;
   width: 90%;
   padding: 1rem;
 }
 
-.person {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-flow: row wrap;
-  width: 90%;
-  height: 10rem;
-  padding: 1rem;
-}
-
-.person img {
-  width: 7rem;
-  height: 7rem;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.person__description {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-flow: column wrap;
-  padding-left: 1rem;
-  height: 8rem;
-}
-
-.person__description h3 {
-  font-size: 1.5rem;
-  padding: 0.5rem;
-}
-
-.person__description p {
-  font-size: 1.2rem;
-  padding: 0.5rem;
-}
-
-.birthday-app button {
+.birthday-app__clear-all {
   padding: 1rem;
   width: 90%;
   font-size: 1.5rem;

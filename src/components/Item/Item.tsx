@@ -1,5 +1,7 @@
 import { Birthday } from "../../entities/entities";
 
+import "./Item.css";
+
 interface ItemProps {
   birthday: Birthday;
 }
@@ -9,10 +11,10 @@ export const Item = ({ birthday }: ItemProps): JSX.Element => {
 
   return (
     <div key={id} className="person">
-      <img src={image} alt={name}></img>
+      <img src={image} alt={name} className="person__img"></img>
       <div className="person__description">
-        <h3>{name}</h3>
-        <p>{age} years</p>
+        <h3 className="person__name">{name}</h3>
+        <p className="person__years">{age} years</p>
       </div>
     </div>
   );

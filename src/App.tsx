@@ -17,13 +17,15 @@ function App(): JSX.Element {
 
   return (
     <div className="birthday-app">
-      <h2>{birthdays.length} birthdays today</h2>
+      <h2 className="birthday-app__title">
+        {birthdays.length} birthdays today
+      </h2>
 
       {birthdays.map((birthday) => (
         <Item key={birthday.id} birthday={birthday}></Item>
       ))}
 
-      <button onClick={handleClear}>Clear ALL</button>
+      <button onClick={handleClear} className="birthday-app__clear-all">Clear ALL</button>
     </div>
   );
 }
