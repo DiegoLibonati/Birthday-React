@@ -16,7 +16,7 @@ function App(): JSX.Element {
   };
 
   return (
-    <div className="main">
+    <div className="birthday-app">
       <h2>{birthdays.length} birthdays today</h2>
 
       {birthdays.map((birthday) => (

@@ -1,4 +1,4 @@
-.main {
+.birthday-app {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@
   border-radius: 1rem;
 }
 
-.main h2 {
+.birthday-app h2 {
   font-size: 2rem;
   width: 90%;
   padding: 1rem;
@@ -52,7 +52,7 @@
   padding: 0.5rem;
 }
 
-.main button {
+.birthday-app button {
   padding: 1rem;
   width: 90%;
   font-size: 1.5rem;
