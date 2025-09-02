@@ -3,7 +3,7 @@ import user from "@testing-library/user-event";
 
 import App from "./App";
 
-import { mockBirthdays } from "./tests/jest.constants";
+import { mockBirthdays } from "../tests/jest.constants";
 
 const renderComponent = (): { container: HTMLElement } => {
   const { container } = render(<App />);

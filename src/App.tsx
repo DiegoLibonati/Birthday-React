@@ -2,9 +2,9 @@ import { useState } from "react";
 
 import { Birthday } from "./entities/entities";
 
-import { Item } from "./components/Item/Item.tsx";
+import { Item } from "./components/Item/Item";
 
-import { birthdays as arrBirthdays } from "./constants/data.ts";
+import { birthdays as arrBirthdays } from "./constants/data";
 
 import "./App.css";
 
