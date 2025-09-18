@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-import { Birthday } from "./entities/entities";
+import { Birthday } from "@src/entities/entities";
 
-import { Item } from "./components/Item/Item";
+import { Item } from "@src/components/Item/Item";
 
-import { birthdays as arrBirthdays } from "./constants/data";
+import { birthdays as arrBirthdays } from "@src/constants/data";
 
-import "./App.css";
+import "@src/App.css";
 
 function App(): JSX.Element {
   const [birthdays, setBirthdays] = useState<Birthday[]>(arrBirthdays);
@@ -25,7 +25,9 @@ function App(): JSX.Element {
         <Item key={birthday.id} birthday={birthday}></Item>
       ))}
 
-      <button onClick={handleClear} className="birthday-app__clear-all">Clear ALL</button>
+      <button onClick={handleClear} className="birthday-app__clear-all">
+        Clear ALL
+      </button>
     </div>
   );
 }

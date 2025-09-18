@@ -1,6 +1,6 @@
 import { screen, render } from "@testing-library/react";
 
-import { Item } from "./Item";
+import { Item } from "@src/components/Item/Item";
 
 describe("Item.tsx", () => {
   describe("General Tests.", () => {
