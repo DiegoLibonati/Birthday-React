@@ -22,6 +22,7 @@ I made a web application that allows you to see today's birthdays, and how old t
 1. React JS
 2. Typescript
 3. CSS3
+4. Vite
 
 ## Libraries used
 
