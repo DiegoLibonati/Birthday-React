@@ -18,7 +18,7 @@ jest.mock("@src/constants/birthdays.ts", () => {
   return { __esModule: true, default: mockBirthdays };
 });
 
-describe("App.tsx", () => {
+describe("BirthdaysPage.tsx", () => {
   describe("General Tests.", () => {
     test("It is expected that the number of birthdays will be rendered in text.", () => {
       renderComponent();
