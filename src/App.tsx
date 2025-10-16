@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import { Birthday } from "@src/entities/entities";
+import { Birthday } from "@src/entities/app";
 
 import { Item } from "@src/components/Item/Item";
 
-import { birthdays as arrBirthdays } from "@src/constants/data";
+import arrBirthdays from "@src/constants/birthdays";
 
 import "@src/App.css";
 

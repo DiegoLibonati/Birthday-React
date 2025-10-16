@@ -13,11 +13,10 @@ const renderComponent = (): { container: HTMLElement } => {
   };
 };
 
-jest.mock("./constants/data.ts", () => ({
-  get birthdays() {
-    return mockBirthdays;
-  },
-}));
+jest.mock("@src/constants/birthdays.ts", () => {
+  const { mockBirthdays } = jest.requireActual("@tests/jest.constants");
+  return { __esModule: true, default: mockBirthdays };
+});
 
 describe("App.tsx", () => {
   describe("General Tests.", () => {

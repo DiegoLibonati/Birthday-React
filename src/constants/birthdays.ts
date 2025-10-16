@@ -1,6 +1,6 @@
-import { Birthday } from "@src/entities/entities";
+import { Birthday } from "@src/entities/app";
 
-export const birthdays: Birthday[] = [
+const birthdays: Birthday[] = [
   {
     id: 1,
     name: "Bertie Yates",
@@ -37,3 +37,5 @@ export const birthdays: Birthday[] = [
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
   },
 ];
+
+export default birthdays;

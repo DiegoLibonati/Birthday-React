@@ -1,5 +1,3 @@
-// Types
-
 export type Birthday = {
   id: number;
   name: string;

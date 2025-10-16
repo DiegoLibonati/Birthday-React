@@ -1,10 +1,6 @@
-import { Birthday } from "@src/entities/entities";
+import { ItemProps } from "@src/entities/props";
 
-import "./Item.css";
-
-interface ItemProps {
-  birthday: Birthday;
-}
+import "@src/components/Item/Item.css";
 
 export const Item = ({ birthday }: ItemProps): JSX.Element => {
   const { id, name, age, image } = birthday;
