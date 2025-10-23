@@ -33,8 +33,8 @@ describe("BirthdaysPage.tsx", () => {
     test("Expected to be displayed every birthday", () => {
       const { container } = renderComponent();
 
-      // eslint-disable-next-line
-      const itemElements = container.querySelectorAll(".person");
+      const itemElements =
+        container.querySelectorAll<HTMLDivElement>(".person");
 
       expect(itemElements).toHaveLength(mockBirthdays.length);
     });
@@ -42,8 +42,8 @@ describe("BirthdaysPage.tsx", () => {
     test("Tapping the clear button is expected to clear all birthdays.", async () => {
       const { container } = renderComponent();
 
-      // eslint-disable-next-line
-      const itemElements = container.querySelectorAll(".person");
+      const itemElements =
+        container.querySelectorAll<HTMLDivElement>(".person");
 
       expect(itemElements).toHaveLength(mockBirthdays.length);
 
@@ -51,8 +51,8 @@ describe("BirthdaysPage.tsx", () => {
 
       await user.click(buttonClear);
 
-      // eslint-disable-next-line
-      const notItemElements = container.querySelectorAll(".person");
+      const notItemElements =
+        container.querySelectorAll<HTMLDivElement>(".person");
 
       expect(notItemElements).toHaveLength(0);
     });
