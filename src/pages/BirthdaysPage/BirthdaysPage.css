@@ -3,25 +3,29 @@
   align-items: center;
   justify-content: center;
   flex-flow: column wrap;
-  width: 30rem;
+  width: 18.75rem;
   height: auto;
   background-color: var(--color-white);
-  padding: 1rem;
-  border-radius: 1rem;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
 }
 
 .birthdays-page__title {
-  font-size: 2rem;
+  font-size: 1.25rem;
   width: 90%;
-  padding: 1rem;
+  padding: 0.625rem;
+}
+
+.birthdays-page__list {
+  width: 100%;
 }
 
 .birthdays-page__clear-all {
-  padding: 1rem;
+  padding: 0.625rem;
   width: 90%;
-  font-size: 1.5rem;
-  letter-spacing: 0.2rem;
-  border-radius: 1rem;
+  font-size: 0.9375rem;
+  letter-spacing: 0.125rem;
+  border-radius: 0.625rem;
   color: var(--color-white);
   outline: none;
   background-color: var(--color-primary);

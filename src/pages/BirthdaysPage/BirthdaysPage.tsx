@@ -16,23 +16,28 @@ const BirthdaysPage = () => {
   };
 
   return (
-    <div className="birthdays-page">
+    <main className="birthdays-page" aria-label="Today's birthdays">
       <h2 className="birthdays-page__title">{birthdays.length} birthdays today</h2>
 
-      {birthdays.map((birthday) => (
-        <Item
-          key={birthday.id}
-          age={birthday.age}
-          id={birthday.id}
-          image={birthday.image}
-          name={birthday.name}
-        ></Item>
-      ))}
+      <ul className="birthdays-page__list" aria-label="Birthday list">
+        {birthdays.map((birthday) => (
+          <Item
+            key={birthday.id}
+            age={birthday.age}
+            image={birthday.image}
+            name={birthday.name}
+          ></Item>
+        ))}
+      </ul>
 
-      <button onClick={handleClear} className="birthdays-page__clear-all">
+      <button
+        onClick={handleClear}
+        className="birthdays-page__clear-all"
+        aria-label="Clear all birthdays from the list"
+      >
         Clear ALL
       </button>
-    </div>
+    </main>
   );
 };
 

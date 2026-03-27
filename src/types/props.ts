@@ -4,7 +4,6 @@
 // }
 
 export interface ItemProps {
-  id: number;
   name: string;
   age: number;
   image: string;
