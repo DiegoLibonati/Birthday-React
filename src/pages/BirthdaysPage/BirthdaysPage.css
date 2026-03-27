@@ -5,7 +5,7 @@
   flex-flow: column wrap;
   width: 30rem;
   height: auto;
-  background-color: var(--white-color);
+  background-color: var(--color-white);
   padding: 1rem;
   border-radius: 1rem;
 }
@@ -22,9 +22,9 @@
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
   border-radius: 1rem;
-  color: var(--white-color);
+  color: var(--color-white);
   outline: none;
-  background-color: var(--primary-color);
+  background-color: var(--color-primary);
   cursor: pointer;
   border: none;
 }

@@ -1,10 +1,8 @@
-import { ItemProps } from "@src/entities/props";
+import { ItemProps } from "@/types/props";
 
-import "@src/components/Item/Item.css";
+import "@/components/Item/Item.css";
 
-export const Item = ({ birthday }: ItemProps): JSX.Element => {
-  const { id, name, age, image } = birthday;
-
+const Item = ({ age, id, image, name }: ItemProps) => {
   return (
     <div key={id} className="person">
       <img src={image} alt={name} className="person__img"></img>
@@ -15,3 +13,5 @@ export const Item = ({ birthday }: ItemProps): JSX.Element => {
     </div>
   );
 };
+
+export default Item;
